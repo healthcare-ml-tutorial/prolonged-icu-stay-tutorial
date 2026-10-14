@@ -1,0 +1,29 @@
+# MIMIC / healthcare data
+*.csv
+*.csv.gz
+*.parquet
+*.feather
+*.db
+*.sqlite
+*.sqlite3
+
+# Credentials / secrets
+*.json
+*.pem
+*.key
+.env
+.env.*
+credentials*
+service-account*
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# macOS
+.DS_Store
